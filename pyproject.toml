@@ -1,0 +1,19 @@
+[tool.poetry]
+name = "salaries"
+version = "0.1.0"
+description = ""
+authors = ["Andrey Alekseev <leksus@leksus.info>"]
+readme = "README.md"
+
+[tool.poetry.dependencies]
+python = "^3.12"
+fastapi = "^0.110.2"
+
+
+[tool.poetry.group.dev.dependencies]
+pytest = "^8.2.0"
+uvicorn = "^0.29.0"
+
+[build-system]
+requires = ["poetry-core"]
+build-backend = "poetry.core.masonry.api"
